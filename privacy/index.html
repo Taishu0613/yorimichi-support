@@ -76,18 +76,18 @@
   <header>
     <h1>Privacy Policy</h1>
     <p>よりみち - 日本探検</p>
-    <span class="date">Effective as of 2026-08-23</span>
+    <span class="date">Effective as of 2026-10-21</span>
   </header>
 
   <main>
     <section>
       <p>This privacy policy applies to the よりみち - 日本探検 app for mobile devices (the “Application”), operated by Taishu Wakasugi (“we”, “us”, or the “Service Provider”).</p>
-      <p><strong>Summary:</strong> The Application does not have a server or backend of its own. Location data you save is stored only on your device and is never transmitted to us. The only external party involved is Apple, which briefly processes your coordinates to look up an address.</p>
+      <p><strong>Summary:</strong> The Application does not have a server or backend of its own. Location data you save is stored only on your device and is never transmitted to us. The only party that receives your coordinates is Apple, which briefly processes them to look up an address. Purchases are handled entirely by Apple through the App Store.</p>
     </section>
 
     <section>
       <h2>Information We Collect</h2>
-      <p>The Application collects only the location information described below. It does not collect your device’s IP address, track which screens you visit or how long you use the app, or use analytics SDKs, advertising SDKs, or cookies.</p>
+      <p>The Application uses only the location information described below. It does not collect your device’s IP address, track which screens you visit or how long you use the app, or use analytics SDKs, advertising SDKs, or cookies.</p>
     </section>
 
     <section>
@@ -100,15 +100,36 @@
     </section>
 
     <section>
+      <h2>Location While the App Is Closed (Optional)</h2>
+      <p>If you turn on the first-visit notification (初訪問の通知) and allow location access “Always”, the Application checks your approximate location while it is closed so it can tell you when you enter a municipality or prefecture you have not recorded yet. If you also turn on the paid auto-record feature (自動で記録), the Application saves that place in the same way as tapping the “+” button.</p>
+      <ul>
+        <li>To keep battery use low, the Application does not run GPS continuously. It only receives approximate location updates from iOS after you have moved a significant distance (roughly 500 m or more).</li>
+        <li>Each update is converted into an address with Apple’s MapKit, as described below, and compared with your saved records on your device.</li>
+        <li>The last checked location, the time it was received, and which areas you were recently notified about are kept on your device so the Application does not notify you about the same place repeatedly or record places it passes over while you are on an airplane. None of this is sent to the Service Provider.</li>
+        <li>You can turn these features off at any time from the 旅の記録 screen, or stop all location access in the iPhone Settings app.</li>
+      </ul>
+    </section>
+
+    <section>
       <h2>Apple Location Services (MapKit)</h2>
-      <p>To convert GPS coordinates into a readable address, the Application uses Apple’s MapKit reverse-geocoding service. Your coordinates are sent to Apple when you save a location so Apple can return an address. This exchange is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple’s Privacy Policy</a>. No other third party receives your location data.</p>
+      <p>To convert GPS coordinates into a readable address, the Application uses Apple’s MapKit reverse-geocoding service. Your coordinates are sent to Apple when you save a location, and when the optional features above check your location while the Application is closed, so Apple can return an address. This exchange is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple’s Privacy Policy</a>. No other third party receives your coordinates.</p>
+    </section>
+
+    <section>
+      <h2>Images from Wikipedia</h2>
+      <p>While the Application is open, it may download images of a municipality or prefecture from Wikipedia (Wikimedia Foundation) to show on its cards, for example when you are invited to record the place you are in or have just recorded it. The request contains the name of that municipality or prefecture, which may be where you currently are, but never your coordinates. Like any website, Wikimedia receives your device’s IP address when the images are downloaded. Nothing is downloaded from Wikipedia while the Application is closed. This exchange is governed by the <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy" target="_blank" rel="noopener noreferrer">Wikimedia Foundation Privacy Policy</a>.</p>
+    </section>
+
+    <section>
+      <h2>In-App Purchases</h2>
+      <p>The auto-record feature is offered as a monthly subscription or a one-time purchase. Payment and purchase records are handled entirely by Apple through the App Store; the Service Provider does not receive your payment information, name, or Apple Account details. The Application only reads the purchase status that Apple provides on your device to decide whether the feature is available. Purchases are governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple’s Privacy Policy</a>, and you can manage or cancel a subscription in your Apple Account settings.</p>
     </section>
 
     <section>
       <h2>Your Rights and How to Delete Your Data</h2>
       <p>Because saved locations exist only on your device, you remain in control of them:</p>
       <ul>
-        <li><strong>Delete a single entry:</strong> On the “保存した市区町村” screen, use the Edit control to remove an entry.</li>
+        <li><strong>Delete a single entry:</strong> On the 旅の記録 screen, open a prefecture and swipe a visited municipality to remove it.</li>
         <li><strong>Delete everything:</strong> Uninstalling the Application permanently deletes all saved locations because nothing is retained elsewhere.</li>
       </ul>
       <p>Since the Service Provider never receives or stores this data, there is nothing on our end to access, correct, or delete. Questions may be sent to <a href="mailto:taishu_wakasugi@outlook.com">taishu_wakasugi@outlook.com</a>.</p>
